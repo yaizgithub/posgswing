@@ -1,0 +1,10 @@
+@keyframes blink {
+    0% { background-color: transparent; }
+    50% { background-color: rgb(255, 217, 0); }
+    100% { background-color: transparent; }
+  }
+
+.blink-row {
+  animation: blink 1s infinite; /* Atur animasi untuk berjalan setiap detik tanpa henti */
+}
+  
